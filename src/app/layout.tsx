@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Cloud Hosting",
   description: "Cloud Hosting Project",
     icons: {
-    icon: "./favicon.ico",
+    icon: "/favicon.ico",
   },
 };
 interface RootLayoutPorps{
