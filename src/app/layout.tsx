@@ -20,7 +20,7 @@ export default function RootLayout({children}:RootLayoutPorps) {
     <html lang="en">
       
       <body className={inter.className}>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="./favicon" sizes="any" />
         <Header/>
         <ToastContainer theme="colored" position="top-center"/>
         {children}
