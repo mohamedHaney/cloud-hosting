@@ -11,6 +11,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Cloud Hosting",
   description: "Cloud Hosting Project",
+    icons: {
+    icon: "./favicon",
+  },
 };
 interface RootLayoutPorps{
   children : React.ReactNode
