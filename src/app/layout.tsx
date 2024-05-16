@@ -11,9 +11,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Cloud Hosting",
   description: "Cloud Hosting Project",
-    icons: {
-    icon: "/favicon",
-  },
 };
 interface RootLayoutPorps{
   children : React.ReactNode
@@ -23,6 +20,7 @@ export default function RootLayout({children}:RootLayoutPorps) {
     <html lang="en">
       
       <body className={inter.className}>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <Header/>
         <ToastContainer theme="colored" position="top-center"/>
         {children}
